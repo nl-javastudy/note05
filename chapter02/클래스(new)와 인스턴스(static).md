@@ -13,7 +13,7 @@ class Animal {
     ...
 }
 
-Animal cat = new Animal("Kitty"); // new를 사용하여 인스턴스 생성
+Animal cat = new Animal(); // new를 사용하여 인스턴스 생성
 
 ```
 
