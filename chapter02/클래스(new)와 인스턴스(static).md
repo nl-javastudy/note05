@@ -13,7 +13,11 @@ class Animal {
     ...
 }
 
+<<<<<<< HEAD
 Animal cat = new Animal("Kitty"); // new를 사용하여 인스턴스 생성
+=======
+Animal cat = new Animal(); // new를 사용하여 인스턴스 생성
+>>>>>>> refs/remotes/origin/main
 
 ```
 
@@ -71,4 +75,9 @@ public class Main {
 
 - `static`을 사용하는 것이 적절한 경우:
   - 공통된 데이터(예: `Math.PI`, `System.out`)를 여러 인스턴스에서 공유해야 할 때
+<<<<<<< HEAD
   - 도구(Utility) 클래스처럼 객체 생성 없이 메서드를 호출할 때 (예: `Math.sqrt()`)
+=======
+  - 도구(Utility) 클래스처럼 객체 생성 없이 메서드를 호출할 때 (예: `Math.sqrt()`)
+
+>>>>>>> refs/remotes/origin/main
